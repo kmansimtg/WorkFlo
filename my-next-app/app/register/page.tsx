@@ -3,7 +3,7 @@ import { FormEvent, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { register } from "@/actions/register";
-import { FaEye, FaEyeSlash } from 'react-icons/fa';
+
 
 export default function RegisterForm() {
   const [error, setError] = useState<string>();
